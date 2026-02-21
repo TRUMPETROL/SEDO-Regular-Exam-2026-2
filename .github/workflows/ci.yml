@@ -2,7 +2,9 @@ name: Build and test
 
 on:
   push:
-      branches: [ "feature", "develop" ]
+      branches:  
+      - develop
+      - 'feature/**'
 
 jobs:
   build_test:
