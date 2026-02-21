@@ -3,6 +3,7 @@ name: Build and test
 on:
   push:
     branches: [ "feature", "develop" ]
+    
 
 jobs:
   build_test:
