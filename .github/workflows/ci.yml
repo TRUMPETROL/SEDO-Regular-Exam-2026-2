@@ -2,9 +2,8 @@ name: Build and Test
 
 on:
   push:
-    branches:
-      - develop
-      - 'feature/**'
+    branches: [ "feature", "develop" ]
+    
   workflow_dispatch:
 
 jobs:
